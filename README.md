@@ -4,8 +4,6 @@
 2> pip install -r requirements.txt
 <br>
 3> cd core/settings:
-<br>
-   -change database settings
    <br>
      DATABASES = {
      <br>
