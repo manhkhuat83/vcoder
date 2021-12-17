@@ -1,5 +1,5 @@
 # vcoder
-1> git clone https://github.com/h4cktivist/devSearch.git
+1> git clone https://github.com/manhkhuat83/vcoder.git
 <br>
 2> pip install -r requirements.txt
 <br>
