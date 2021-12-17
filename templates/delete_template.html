@@ -1,0 +1,18 @@
+{% extends 'main.html' %}
+{% block content %}
+<main class="formPage my-xl">
+    <div class="content-box">
+        <div class="formWrapper">
+            <br>
+            <form class="form" action="" method="POST">
+                {% csrf_token %}
+                <p>Bạn có chắc chắn muốn xóa "{{object}}"?</p>
+
+                <a class="btn btn--sub btn--lg  my-md" href="{{request.GET.next}}">Quay lại</a>
+
+                <input class="btn btn--sub btn--lg  my-md" type="submit" value="Xác nhận" />
+            </form>
+        </div>
+    </div>
+</main>
+{% endblock %}
