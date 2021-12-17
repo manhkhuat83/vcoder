@@ -10,7 +10,6 @@ def getRoutes(request):
         {'GET': '/api/projects'},
         {'GET': '/api/projects/id'},
         {'POST': '/api/projects/id/vote'},
-
         {'POST': '/api/users/token'},
         {'POST': '/api/users/token/refresh'},
     ]
@@ -51,5 +50,5 @@ def removeTag(request):
     project = Project.objects.get(id=projectId)
     tag = Tag.objects.get(id=tagId)
     project.tags.remove(tag)
-    return Response('Tag was deleted!')
+    return Response('Đã xóa thẻ!')
 
