@@ -37,7 +37,7 @@
                     <h3 class="singleProject__subtitle">Phản hồi</h3>
                     <h5 class="project--rating">
                         {{project.vote_ratio}}% Phản hồi tích cực ({{project.vote_total}}
-                        Bầu chọn{{project.vote_total|pluralize:"s"}})
+                        Bầu chọn)
                     </h5>
                     {% if request.user.profile.id in project.reviewers %}
                     <p>Bạn đã gửi đánh giá cho dự án này</p>
