@@ -6,3 +6,10 @@
 3> python manage.py migrate
 <br>
 4> python manage.py runserver
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
