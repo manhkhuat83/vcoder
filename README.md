@@ -7,6 +7,7 @@
 <br>
 4> python manage.py runserver
 
+#config db for sqlite3
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
