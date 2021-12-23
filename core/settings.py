@@ -192,4 +192,5 @@ JAZZMIN_SETTINGS = {
     "site_brand": "CoderV",
     "welcome_sign": "Chào mừng đến với CoderV",
     "copyright": "Nhóm 1 TTCSCN",
+    "site_logo": "images/programming.png",
 }
