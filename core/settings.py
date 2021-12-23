@@ -184,3 +184,12 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'manhkhuat83@gmail.com'
 EMAIL_HOST_PASSWORD = 'vlblxyubadqzxlzs'
 EMAIL_PORT = 587
+
+# Jazzmin settings
+JAZZMIN_SETTINGS = {
+    "site_title": "CoderV Admin",
+    "site_header": "CoderV",
+    "site_brand": "CoderV",
+    "welcome_sign": "Chào mừng đến với CoderV",
+    "copyright": "Nhóm 1 TTCSCN",
+}
