@@ -190,7 +190,7 @@ JAZZMIN_SETTINGS = {
     "site_title": "CoderV Admin",
     "site_header": "CoderV",
     "site_brand": "CoderV",
-    "welcome_sign": "Chào mừng đến với CoderV",
+    "welcome_sign": "CoderV hân hạnh đươc phục vụ quý khách",
     "copyright": "Nhóm 1 TTCSCN",
     "site_logo": "images/programming.png",
 }
