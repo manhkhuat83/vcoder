@@ -15,12 +15,12 @@
                 </div>
                 {% if project.source_link %}
                 <a class="singleProject__liveLink" href="{{project.source_link}}" target="_blank"><i
-                        class="im im-external-link"></i>Mã nguồn
+                        class="im im-external-link"></i>Source code
                 </a>
                 {% endif %}
                 {% if project.demo_link %}
                 <a class="singleProject__liveLink" href="{{project.source_link}}" target="_blank"><i
-                        class="im im-external-link"></i>Thử nghiệm trực tiếp
+                        class="im im-external-link"></i>Link demo
                 </a>
                 {% endif %}
             </div>
@@ -28,6 +28,7 @@
                 <img class="singleProject__preview" src="{{ project.imageURL }}" alt="portfolio thumbnail" />
                 <a href="{% url 'user-profile' project.owner.id  %}"
                     class="singleProject__developer">{{project.owner.name}}</a>
+                <div class="singleProject__info">Vai trò: {{project.role}}</div>
                 <h2 class="singleProject__title">{{project.title}}</h2>
                 <h3 class="singleProject__subtitle">Giới thiệu dự án</h3>
                 <div class="singleProject__info">
@@ -36,8 +37,8 @@
                 <div class="comments">
                     <h3 class="singleProject__subtitle">Phản hồi</h3>
                     <h5 class="project--rating">
-                        {{project.vote_ratio}}% Phản hồi tích cực ({{project.vote_total}}
-                        Bầu chọn)
+                        {{project.vote_ratio}}% Đánh giá tích cực ({{project.vote_total}}
+                        Vote)
                     </h5>
                     {% if request.user.profile.id in project.reviewers %}
                     <p>Bạn đã gửi đánh giá cho dự án này</p>
